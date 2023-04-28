@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204598459515",
+    "project_id": "fir-dbms-library",
+    "storage_bucket": "fir-dbms-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204598459515:android:d07cc4462c0b667f4b76de",
+        "android_client_info": {
+          "package_name": "com.example.library_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204598459515-lnh25gt0k6f06ccrherqs4158mmidv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADV1RPK1h1v3__BkG7b-G9PnV3_n4qFiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204598459515-lnh25gt0k6f06ccrherqs4158mmidv4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
