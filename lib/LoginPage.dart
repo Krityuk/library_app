@@ -6,7 +6,7 @@ import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:library_app/accountsModel.dart';
 import 'package:library_app/afterLoginPage.dart';
-import 'package:library_app/variables.dart';
+import 'package:library_app/variables.dart';  
 import 'package:library_app/createAccount.dart';
 
 class LoginPage extends StatefulWidget {
@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 229, 230, 231),
+      // backgroundColor: const Color.fromARGB(255, 229, 230, 231),
       body: Stack(
         children: [
           Positioned(
@@ -54,22 +54,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
-                      // RichText(
-                      //   text: const TextSpan(
-                      //       text: 'Sign In ',
-                      //       style: TextStyle(
-                      //         fontSize: 25,
-                      //         fontWeight: FontWeight.w900,
-                      //         color: Color.fromARGB(255, 255, 7, 7),
-                      //       ),
-                      //       children: [
-                      //         TextSpan(
-                      //             text: 'Library',
-                      //             style: TextStyle(
-                      //                 fontSize: 30,
-                      //                 fontWeight: FontWeight.bold))
-                      //       ]),
-                      // ),
+                     
                       Text(
                         '                                   Sign In to continue',
                         style: TextStyle(
@@ -273,16 +258,6 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
-          // Positioned(
-          //     top: 135,
-          //     left: 280,
-          //     child: Container(
-          //       height: 80,
-          //       width: 65,
-          //       decoration: const BoxDecoration(
-          //           image: DecorationImage(
-          //               image: AssetImage('images/dragon.jpg'))),
-          //     ))
         ],
       ),
     );

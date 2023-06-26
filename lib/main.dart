@@ -1,11 +1,8 @@
 // ignore: unused_import
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'dart:convert';
 
 import 'package:library_app/landing_page.dart';
-import 'package:library_app/testing.dart';
 
 // void main() => runApp(const MyApp());
 
